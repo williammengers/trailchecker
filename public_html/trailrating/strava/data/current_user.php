@@ -57,19 +57,21 @@ echo "<h3>Popular Segments in your area:</h3>";
 
 ?>
 
-<!--jQuery -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <!--Main Custom CSS-->
 <link rel="stylesheet" href="http://patapscotrails.com/css/boot-override.css">
 
+<!--jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--Sugar JS Library -->
+<script type="text/javascript" src="http://sugarjs.com/release/current/sugar.min.js"></script>
+
 <!--Google map api libraries-->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRl0i5r3GD1rT-txrY-kuGVRv4oFmXxVE"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
 
-<!--Google Maps JS-->
+<!--Google Maps Custom JS-->
 <script type="text/javascript" src="http://patapscotrails.com/js/google-maps.js"></script>
 
 <!--Map Canvas -->

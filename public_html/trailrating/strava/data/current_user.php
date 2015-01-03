@@ -73,6 +73,8 @@ echo "<h3>Popular Segments in your area:</h3>";
 
 <!--Google Maps Custom JS-->
 <script type="text/javascript" src="http://patapscotrails.com/js/google-maps.js"></script>
+<!--Weather API JS-->
+<script type="text/javascript" src="http://patapscotrails.com/js/weather-underground.js"></script>
 
 <!--Map Canvas -->
 <div id="map-canvas"></div>

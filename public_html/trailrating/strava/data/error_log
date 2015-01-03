@@ -1,0 +1,7 @@
+[03-Jan-2015 00:34:35 UTC] PHP Fatal error:  Call to undefined function getAthlete() in /home/offcambro/public_html/trailrating/strava/data/current_user.php on line 62
+[03-Jan-2015 00:40:08 UTC] PHP Fatal error:  Call to undefined function getAthlete() in /home/offcambro/public_html/trailrating/strava/data/current_user.php on line 63
+[03-Jan-2015 00:54:14 UTC] PHP Fatal error:  Call to undefined function getAthlete() in /home/offcambro/public_html/trailrating/strava/data/current_user.php on line 62
+[03-Jan-2015 00:54:53 UTC] PHP Fatal error:  Call to undefined function getAthlete() in /home/offcambro/public_html/trailrating/strava/data/current_user.php on line 62
+[03-Jan-2015 00:54:59 UTC] PHP Fatal error:  Call to undefined function getAthlete() in /home/offcambro/public_html/trailrating/strava/data/current_user.php on line 62
+[03-Jan-2015 00:56:16 UTC] PHP Fatal error:  Call to undefined function getAthlete() in /home/offcambro/public_html/trailrating/strava/data/current_user.php on line 62
+[03-Jan-2015 01:04:03 UTC] PHP Fatal error:  Call to undefined function getAthlete() in /home/offcambro/public_html/trailrating/strava/data/current_user.php on line 62

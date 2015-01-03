@@ -1,9 +1,9 @@
 #map-canvas { 
-     	height: 60%; 
-     	width: 95%; 
-     	margin: 2%; 
-     	padding: 0;
-     	float: left;
+     	height: 75%;
+          width: 50%;
+          margin: 2%;
+          padding: 0;
+          float: left;
      }
 
      #location-form{
@@ -12,6 +12,38 @@
      	margin: 2%; 
      	padding: 0;
      	float: left;
+     }
+
+     .welcome{
+          margin-left: 1%;
+          width: 50%;
+          float: left;
+     }
+
+     .current-conditions{
+          float: left;
+          display: block;
+          margin-top: 2%;
+          margin-left: 5%;
+          font-size: 20px;
+     }
+
+     #location, #condition, #temp{
+          color: #14EA14;
+     }
+
+     .strava-logo{
+          display: block;
+          width: 2%;
+          clear: both;
+          float:left;
+     }
+
+     .wu-logo{
+          display: block;
+          width: 2%;
+          clear: both;
+          float:left;
      }
 
      h3{

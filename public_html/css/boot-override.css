@@ -1,5 +1,5 @@
-#map-canvas { 
-     	height: 75%;
+     #map-canvas { 
+     	height: 70%;
           width: 50%;
           margin: 2%;
           padding: 0;
@@ -32,20 +32,30 @@
           color: #14EA14;
      }
 
-     .strava-logo{
-          display: block;
-          width: 2%;
+     .footer{
+          background-color: #333;
+          color: white;
+          font-size: 175%;
+          text-align: center;
+          line-height: 3em;
           clear: both;
-          float:left;
+          position: relative;
+          z-index: 10;
+          height: 3em;
+          margin-top: -3em;
      }
 
-     .wu-logo{
-          display: block;
-          width: 2%;
-          clear: both;
-          float:left;
-     }
 
      h3{
      	margin-left: 2% !important;
      }
+
+     @media (max-width: 600px) {
+          #map-canvas {
+               width: 100%;
+          }
+
+          .welcome{
+               width:100%;
+          }
+}

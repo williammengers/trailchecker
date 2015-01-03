@@ -87,10 +87,10 @@
   <div id="map-canvas"></div>
 
 
-<div class="partners">
-  <img class="strava-logo" src="http://static.wixstatic.com/media/b8996d_3f7bb0592e144f33bca92d6daa2bb4a8.png" />
-  <img class="wu-logo" src="http://icons.wxug.com/i/w/layout/logo-responsive.png" />
-</div>
+  <div class="footer">
+    Off Camber Trail Ratings 2015 #durt
+  </div>
+
 </html>
 
 

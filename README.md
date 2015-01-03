@@ -1,13 +1,15 @@
-Off Cambros Mountain Bike Trailchecker Application
+Off Cambros - Trailchecker Application
 ============
 
-v.1.0 of Trail Checker
+v.1.0 of Trail Checker App
+
+APIS:
   -Strava API
   -Weather Underground API
+  -Google Map Javascript API v3
   
-  
-1. index.php is serving as a login page using Stravas API oAuth protocol
-2. /trailrating/strava/data/current_user.php is serving as main landing page after logged in
+Libraries:
+  -Requests - PHP Rest Library - http://requests.ryanmccue.info/
+  -Angular.js 1.3.8
+  -Bootstrap CSS v-3.3.1
 
-
-This will change as the project progresses but I wanted to get it up and running quickly

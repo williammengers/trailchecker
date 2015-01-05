@@ -5,58 +5,90 @@
 	}
 
 ?>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<style>
-	.home-center{
-		margin-left: 18%;
-		margin-top: 8%;
-		z-index: 1000;
-	}
-	.home-center p{
-		float: none;
-		margin-left: 5%;
-	}
-	.home-center a{
-		float: none;
-		margin-left: 10%;
-	}
-
-	body {
-	  /* Location of the image */
-	  background-image: url('http://gallsource.com/wp-content/uploads/2014/09/Mountain-Biking-Beautiful-Pics.jpg') !important;
-	  
-	  /* Background image is centered vertically and horizontally at all times */
-	  background-position: center center !important;
-	  
-	  /* Background image doesn't tile */
-	  background-repeat: no-repeat !important;
-	  
-	  /* Background image is fixed in the viewport so that it doesn't move when 
-	     the content's height is greater than the image's height */
-	  background-attachment: fixed !important;
-	  
-	  /* This is what makes the background image rescale based
-	     on the container's size */
-	  background-size: cover !important;
-	  
-	  /* Set a background color that will be displayed
-	     while the background image is loading */
-	  background-color: #464646 !important;
-	}
-
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- will use self hosted bootstrap css at a later time -->
+<link rel="stylesheet" type"text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<!-- will use sass at a later time as well, for now we will use this main stylesheet -->
+<link rel="stylesheet" type"text/css" href="css/style.css">
 <body>
-	<div class="home-center">
-		<h1>Off Camber Trail Ratings</h1>
-
-			<p>Login to your Strava Account to get started:</p>
-
-			<a href="https://www.strava.com/oauth/authorize?client_id=4032&response_type=code&redirect_uri=http://patapscotrails.com&scope=write&state=mystate&approval_prompt=auto">
-				<img src= "/img/LogInWithStrava.png" />
-		</a>
+<section class="home">
+	<div class="container">
+		<header>
+			<nav class="navbar navbar-default">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">BRAPP</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+	        <li><a href="#">About</a></li>
+	        <li><a href="#">Tour</a></li>
+	        <li><a href="#">Sign Up</a></li>
+		    </ul>
+			</nav>
+		</header>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="jumbotron">
+				  <h1>Less Chattin' | More Brappin</h1>
+				  <p>Getting local trail reports has never been so simple.</p>
+				  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+				</div>
+			<div>
+			<div class="col-md-6">
+				<figure>
+					<img src="img/intro-hand-mobile.png" alt="mobile phone being held by person using BRAPP application" />
+				</figure>
+			</div>
+		</div>
 	</div>
+</section>
+<section class="row about">
+  <div class="container">
+  	<div class="col-md-4">
+  		<figure>
+			  <img src="img/about-bike.gif" alt="">
+			  <figcaption>
+			  	<h2>For Riders / By Riders</h2>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			  </figcaption>
+			</figure>
+  	</div>
+  	<div class="col-md-4">
+  		<figure>
+			  <img src="img/about-location.gif" alt="">
+			  <figcaption>
+			  	<h2>Location, Location, Location</h2>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			  </figcaption>
+			</figure>
+  	</div>
+  	<div class="col-md-4">
+  		<figure>
+			  <img src="img/about-strava.gif" alt="">
+			  <figcaption>
+			  	<h2>Strava Integration</h2>
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+			  </figcaption>
+			</figure>
+  	</div>
+	</div>
+</section>
+<section class="row explore">
+  <div class="container">
+		<h3>Explore New Trails</h3>
+		<p>Out of town on a business trip or visting relatives in a foreign country? BRAPP helps you find nearby trails that are rated by local enthusiasts just like yourself.</p>
+	</div>
+</section>
+<section class="row getstarted">
+  <div class="container">
+	
+</section>
+<section class="row footer">
+  <div class="container">
+	
+</section>
+
+
+		
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

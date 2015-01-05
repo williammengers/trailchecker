@@ -1,0 +1,101 @@
+     #map-canvas { 
+     	height: 70%;
+          width: 50%;
+          margin: 2%;
+          padding: 0;
+          float: left;
+     }
+
+     #location-form{
+     	height: 50%; 
+     	width: 50%; 
+     	margin: 2%; 
+     	padding: 0;
+     	float: left;
+     }
+
+     .welcome{
+          margin-left: 1%;
+          width: 50%;
+          float: left;
+     }
+
+     .current-conditions{
+          float: left;
+          display: block;
+          margin-top: 2%;
+          margin-left: 5%;
+          font-size: 20px;
+     }
+
+     #location, #condition, #temp{
+          color: #14EA14;
+     }
+
+     .footer{
+          background-color: #333;
+          color: white;
+          font-size: 175%;
+          text-align: center;
+          line-height: 3em;
+          clear: both;
+          position: relative;
+          z-index: 10;
+          height: 3em;
+          margin-top: -3em;
+     }
+
+
+     h3{
+     	margin-left: 2% !important;
+     }
+
+     @media (max-width: 600px) {
+          #map-canvas {
+               width: 100%;
+          }
+
+          .welcome{
+               width:100%;
+          }
+}
+
+
+
+
+
+
+
+
+/* homepage styles */
+.home {background: url(../img/intro.jpg) no-repeat 50% top;}
+.navbar-default {background: none;border: none;text-transform: uppercase;}
+.navbar-default {border-bottom: 1px solid rgba(255,255,255,.3);}
+.navbar-nav {float: right;}
+.navbar-nav>li {margin: 0 0 0 60px;}
+.navbar-nav>li>a {padding: 0;}
+.jumbotron {text-align: center;}
+.about {background: #fff;
+overflow: hidden;
+display: inline-block;
+-webkit-transform: skewY(-2deg);
+-moz-transform: skewY(-2deg);
+-ms-transform: skewY(-2deg);
+-o-transform: skewY(-2deg);
+transform: skewY(-2deg);
+-webkit-transition: width 1.2s ease-in-out;
+-moz-transition: width 1.2s ease-in-out;
+-ms-transition: width 1.2s ease-in-out;
+-o-transition: width 1.2s ease-in-out;
+transition: width 1.2s ease-in-out;
+pointer-events: none;}
+.about .container {-webkit-transform: skewY(2deg);
+-moz-transform: skewY(2deg);
+-ms-transform: skewY(2deg);
+-o-transform: skewY(2deg);
+transform: skewY(2deg);
+background: url(sunset-elephant.jpg) no-repeat;
+margin-left: 76px;
+pointer-events: auto;}
+.about figure {text-align: center;}
+.about figure img {border: 5px solid #f76329;padding: 30px;border-radius: 9999px;}

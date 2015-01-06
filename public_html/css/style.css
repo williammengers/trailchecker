@@ -62,40 +62,38 @@
 
 
 
+/*
 
+font-family: 'Proxima Nova Regular'
+font-family: 'Proxima Nova Thin'
+font-family: 'Proxima Nova SemiBold'
+font-family: 'Proxima Nova Light'
 
-
+*/
+#mfPreviewBar {display: none !important;}
 
 
 /* homepage styles */
-.home {background: url(../img/intro.jpg) no-repeat 50% top;}
-.navbar-default {background: none;border: none;text-transform: uppercase;}
-.navbar-default {border-bottom: 1px solid rgba(255,255,255,.3);}
+body {font-family: 'Proxima Nova Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+.btn-primary {font-family: 'Proxima Nova Light', 'Proxima Nova Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;background: transparent;border: 2px solid #fff;border-radius: 5px;text-transform: uppercase;font-size: 16px;letter-spacing: 4px;font-weight: lighter;padding:14px 18px 11px !important;color: #fff !important;line-height: 1 !important;-webkit-transition: opacity .2s ease-in-out;-moz-transition: opacity .2s ease-in-out;-ms-transition: opacity .2s ease-in-out;-o-transition: opacity .2s ease-in-out;transition: opacity .2s ease-in-out;}
+.btn-primary:hover {opacity: .7;border: 2px solid #fff;background: transparent;}
+
+.home {background: url(../img/intro.jpg) no-repeat 50% top;background-size: cover;}
+.navbar-default {background: none;border: none;text-transform: uppercase;padding: 18px 0;border-bottom: 1px solid rgba(255,255,255,.3);}
 .navbar-nav {float: right;}
-.navbar-nav>li {margin: 0 0 0 60px;}
-.navbar-nav>li>a {padding: 0;}
-.jumbotron {text-align: center;}
-.about {background: #fff;
-overflow: hidden;
-display: inline-block;
--webkit-transform: skewY(-2deg);
--moz-transform: skewY(-2deg);
--ms-transform: skewY(-2deg);
--o-transform: skewY(-2deg);
-transform: skewY(-2deg);
--webkit-transition: width 1.2s ease-in-out;
--moz-transition: width 1.2s ease-in-out;
--ms-transition: width 1.2s ease-in-out;
--o-transition: width 1.2s ease-in-out;
-transition: width 1.2s ease-in-out;
-pointer-events: none;}
-.about .container {-webkit-transform: skewY(2deg);
--moz-transform: skewY(2deg);
--ms-transform: skewY(2deg);
--o-transform: skewY(2deg);
-transform: skewY(2deg);
-background: url(sunset-elephant.jpg) no-repeat;
-margin-left: 76px;
-pointer-events: auto;}
+.navbar-brand {padding:0;width:327px;height:57px;background: url(../img/logo@2x.png) no-repeat 0 50%;background-size: 163.5px 28.5px;text-indent: -9999px;}
+.navbar-default .navbar-nav>li {margin: 0 0 0 60px;}
+.navbar-default .navbar-nav>li>a {font-family: 'Proxima Nova Light', 'Proxima Nova Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;padding: 14px 12px 10px;color: #fff;font-weight: lighter;letter-spacing: 4px;}
+.navbar-default .navbar-nav>li>a:hover {color: #fff;}
+.jumbotron {text-align: center;background: none;padding: 40px 0;color: #fff;}
+.jumbotron h1 {font-family: 'Proxima Nova Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight: bolder;}
+.home figure img {display: block;max-width: 100%;margin: 0 auto;}
+.about, .explore {background: #fff;position: relative;top: -10%;padding: 60px 0;-webkit-transform: skewY(-2deg);-moz-transform: skewY(-2deg);-ms-transform: skewY(-2deg);-o-transform: skewY(-2deg);transform: skewY(-2deg);-webkit-transition: width 1.2s ease-in-out;-moz-transition: width 1.2s ease-in-out;-ms-transition: width 1.2s ease-in-out;-o-transition: width 1.2s ease-in-out;transition: width 1.2s ease-in-out;pointer-events: none;}
+.about .container, .explore .container {-webkit-transform: skewY(2deg);-moz-transform: skewY(2deg);-ms-transform: skewY(2deg);-o-transform: skewY(2deg);transform: skewY(2deg);pointer-events: auto;}
 .about figure {text-align: center;}
-.about figure img {border: 5px solid #f76329;padding: 30px;border-radius: 9999px;}
+.about figure img {border: 5px solid #f76329;padding: 30px;border-radius: 9999px;margin: 0 0 35px 0;}
+.about figure h2 {font-size: 18px;margin: 0 0 30px 0;color: #333;font-weight: bolder;}
+.about figure p {font-size: 18px;margin: 0 0 30px 0;color: #999;font-family: 'Proxima Nova Light', 'Proxima Nova Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.explore {background: url(../img/map.png) #b7df3e no-repeat 50%;text-align: center;}
+.explore .container {height: 600px;}

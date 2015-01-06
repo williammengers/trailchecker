@@ -21,19 +21,19 @@
 		    <ul class="nav navbar-nav">
 	        <li><a href="#">About</a></li>
 	        <li><a href="#">Tour</a></li>
-	        <li><a href="#">Sign Up</a></li>
+	        <li><a class="btn btn-primary" href="#about" role="button">Sign Up</a></li>
 		    </ul>
 			</nav>
 		</header>
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-md-12">
 				<div class="jumbotron">
-				  <h1>Less Chattin' | More Brappin</h1>
+				  <h1>Less Chattin' / More Brappin</h1>
 				  <p>Getting local trail reports has never been so simple.</p>
-				  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+				  <p><a class="btn btn-primary" href="#about" role="button">Learn more</a></p>
 				</div>
-			<div>
-			<div class="col-md-6">
+			</div>
+			<div class="col-md-8 col-md-offset-2">
 				<figure>
 					<img src="img/intro-hand-mobile.png" alt="mobile phone being held by person using BRAPP application" />
 				</figure>
@@ -41,7 +41,7 @@
 		</div>
 	</div>
 </section>
-<section class="row about">
+<section class="row about" id="about">
   <div class="container">
   	<div class="col-md-4">
   		<figure>
@@ -87,9 +87,18 @@
 	
 </section>
 
-
-		
-
+<script type="text/javascript">
+    (function() {
+        var path = '//easy.myfonts.net/v2/js?sid=148510(font-family=Proxima+Nova+Regular)&sid=148545(font-family=Proxima+Nova+Thin)&sid=148547(font-family=Proxima+Nova+SemiBold)&sid=148550(font-family=Proxima+Nova+Light)&key=0R4MBJXtBP',
+            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+            trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = protocol + path;
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    })();
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
